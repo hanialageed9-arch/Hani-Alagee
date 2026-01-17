@@ -50,3 +50,61 @@
 
 </body>
 </html>
+body {
+  margin: 0;
+  font-family: Arial, Tahoma;
+  background: #f4f6f8;
+}
+
+header {
+  background: #2e86de;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+nav {
+  background: #1e3799;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 30px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.gallery img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  background: #1e3799;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
